@@ -1,6 +1,7 @@
 import React from 'react';
+import Button from 'react-bulma-components/lib/components/button';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          An example Bulma button:
         </p>
+        <Button color='primary'>Press Me!</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
