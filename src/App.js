@@ -1,13 +1,13 @@
 import React from 'react';
 import Button from 'react-bulma-components/lib/components/button';
-import logo from './logo.svg';
+import Logo from 'components/logo.js'
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Logo></Logo>
         <p>
           An example Bulma button:
         </p>
